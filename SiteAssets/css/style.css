@@ -1999,10 +1999,9 @@ input::placeholder {
 
 @media(max-width:1200px) {
     header .navbar-light .navbar-nav .nav-link {
-        font-size: 14px;
-        margin: 0px 0.50rem;
+        font-size: 12px;
+        margin: 0px 0.20rem;
     }
-
     header .navbar .navbar-service img {
         width: 170px;
     }
@@ -2154,6 +2153,9 @@ input::placeholder {
     }
     .sideCart-plate-img img {
         height: 110px;
+    }
+    header .navbar .navbar-service img {
+        width: 115px;
     }
 }
 @media(max-width: 1100px){
