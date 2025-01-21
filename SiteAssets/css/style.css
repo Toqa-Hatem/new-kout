@@ -1995,6 +1995,19 @@ input::placeholder {
         width: 50px;
         margin-top: 1rem;
     }
+    header .navbar-light .navbar-nav .nav-link {
+        font-weight: 700;
+        font-size: 13px;
+        margin: 0 0.75rem;
+    }
+    header .navbar .navbar-service img {
+        height: 100%;
+        width: 135px;
+    }
+    .owl-slider img {
+        height: 250px;
+        margin-inline: 35px;
+    }
 }
 
 @media(max-width:1200px) {
