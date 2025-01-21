@@ -2527,7 +2527,7 @@ input::placeholder {
     height: 55px;
 }
 }
-@media(max-width: 425px){
+@media(max-width: 500px){
     .big-img {
         height: 156px !important;
         margin-top: 18rem;
