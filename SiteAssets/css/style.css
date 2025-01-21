@@ -2504,6 +2504,13 @@ input::placeholder {
     bottom: -4%;
     height: 37px;
 }
+.intro-img,.intro .overflow-plates {
+    display: none;
+}
+.intro::after {
+    bottom: -2%;
+    height: 55px;
+}
 }
 
 @media(max-width: 375px) {
