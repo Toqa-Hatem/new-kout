@@ -2315,13 +2315,7 @@ input::placeholder {
     height: 220px !important;
     margin-top: 14rem;
 }
-  .intro::after {
-    bottom: 0%;
-    left: 0;
-    right: 0;
-    height: 55px;
-}
-    .owl-slider img {
+ .owl-slider img {
         height: 225px;
         margin-inline: 0px;
     }
@@ -2414,118 +2408,16 @@ input::placeholder {
     .right-side {
         width: 100% !important;
     }
-}
-
-@media(max-width: 425px) {
-    .owl-slider img {
-        height: 165px;
-        margin-inline: 0px;
-        margin-top: 10px;
-    }
-
-    .slide-title {
-        margin-top: 101px;
-    }
-
-    .categories-slider .owl-stage-outer,
-    .categories-slider .owl-stage-outer {
-        padding: 0rem;
-    }
-
-    .nav-link {
-        padding: 0.1rem 1.1rem;
-    }
-    .footer-logo {
-        width: 80px;
-        height: 80px;
-        top: -5%;
-        right: 2px;
-    }
-
-    .info .info-img img {
-        display: none;
-    }
-
-    .plate-img img {
-        height: 145px;
-    }
-
-    .offer-img {
-        height: 145px;
-    }
-
-    .big-img {
-        height: 100px !important;
-        margin-top: 14rem;
-    }
-    .intro .container .small-img {
-        height: 84px;
-        margin-top: 17rem;
-    }
-    .info .btn-lg {
-        padding: 0.5rem 2rem;
-        font-size: 1rem;
-    }
-    .intro .overflow-plates {
-        bottom: -14%;
-        z-index: 9;
-    }
-    .apps-img {
-        height: 155px;
-    }
     .intro::after {
-        bottom: 0%;
-        height: 25px;
+        bottom: -0.5%;
+        left: 0;
+        right: 0;
+        height: 81px;
     }
-    .intro {
-        height: 50vh;
+    .info .info-img img {
+        height: 160px;
+        padding-inline: 100px;
     }
-  .section-titles {
-        margin-bottom: 13px;
-    }
-    .categories, .plates  {
-        padding-inline: 15px;
-    }
-    .plates-slider .owl-stage-outer {
-        padding: 0.2rem;
-    }
-    .plate {
-        padding: 1rem;
-}
-.plate-img img {
-    height: 115px;
-}
-.apps-img {
-    display: none;
-}
-.apps h3 {
-    font-size: 1rem;
-    margin-bottom: 17px !important;
-}
-.btn {
-    padding: 0.370rem .75rem;
-    font-size: 0.8rem;
-}
-.cart-btn {
-    margin-right: 1rem;
-}
-.footer-logo {
-    width: 95px;
-    height: 95px;
-    top: -5%;
-    right: 8px;
-}
-.intro::after {
-    bottom: -4%;
-    height: 37px;
-}
-.intro-img,.intro .overflow-plates {
-    display: none;
-}
-.intro::after {
-    bottom: -2%;
-    height: 55px;
-}
 }
 @media(max-width: 500px){
     .big-img {
@@ -2536,120 +2428,112 @@ input::placeholder {
         height: 95px;
         margin-top: 21rem;
     }
+    .intro::after {
+        bottom: -1%;
+        left: 0;
+        right: 0;
+        height: 55px;
+    }
+    .apps-img {
+        height: 165px;
+    }
 }
-@media(max-width: 375px) {
-   .cart-details h5{
-    font-size: 1rem !important;
-   }
-   .cart-details small{
-    font-size:0.7rem !important;
-   }
-   .cart-page .sideCart-plate-img img {
-    display: none;
-}
-.cart-details{
-    padding: 0px !important;
-}
-.btn {
-    padding: 0.370rem .75rem;
-    font-size: 0.6rem;
-}
-.dec, .inc {
-    height: 20px;
-    width: 20px;
-}
-.notes h4 {
-    font-size: 1rem;
-}
-.plates li{
-    width:100%;
-}
-.plates .nav-link{
-    width:100%;
-}
-.intro .owl-item .slide-title, .intro .owl-item .intro .owl-item .slide-title {
-    margin-right: 0px !important;
-}
-.slide-title {
-    font-size: 1.2rem;
+@media(max-width: 430px) {
+    .categories .owl-item, .plates .owl-item {
+        width: 375px !important;
+        margin-left: 25px;
+    }
+    footer .footer-curve {
+        height: 45px;
+        top: 1px;
+    }
+    .apps-img {
+        height: 150px;
+    }
+    .plates .nav-item , .plates .nav-link {
+        width: 100%;
+        
+    }
+    .plates p {
+        font-size: 0.9rem;
+        font-weight: bolder;
+    }
 }
 
-.owl-slider .item .slide-text {
-    font-size: 14px;
-    margin-block: 4px;
+@media(max-width: 375px) {
+    .intro::after {
+        bottom: -9%;
+        left: 0;
+        right: 0;
+        height: 70px;
+    }
+    .intro {
+        height: 65vh;
+    }
+    .intro::after {
+        bottom: -9%;
+        left: 0;
+        right: 0;
+        height: 95px;
+    }
+
+    .intro .container .small-img {
+        height: 85px;
+        margin-top: 22rem;
+    }
+    .info .info-img img, .apps-img {
+      display: none;
+    }
+    .footer-logo {
+        width: 85px;
+        height: 85px;
+        top: -3%;
+        right: 10px;
+    }
+.categories .owl-item, .plates .owl-item  {
+        width: 330px !important;
+        margin-left: 25px;
+    }
+    .policy .card-title{
+        font-size: 0.9rem;
+    }
+    .policy  p{
+        font-size: 0.75rem;
+    }
+    .policy h4{
+        font-size: 1rem;
+    }
+    .breadcrumb-item {
+        font-size: 0.8rem;
+    }
 }
-.intro::after {
-    bottom: -12%;
-    height: 63px;
+@media(max-width: 320px) {
+    .big-img {
+        height: 110px !important;
+        margin-top: 20rem;
+    }
+    .intro .container .small-img {
+        height: 69px;
+        margin-top: 23rem;
+    }
+
+    .categories h2, .plates h2, .section-btn {
+        font-size: 1rem;
+        margin-top: 2rem;
+    }
+    .section-btn .icon {
+        width: 25px;
+        height: 25px;
+    }
+    .intro::after {
+        bottom: -14%;
+        left: 0;
+        right: 0;
+        height: 112px;
+    }
+    .categories .owl-item, .plates .owl-item {
+        width: 265px !important;
+        margin-left: 25px;
+    }
 }
-.modal-body h2, .categories h2, .plates h2 {
-    font-size: 1rem;
-}
-.section-btn {
-    font-size: 0.87rem;
-}
-.section-btn .icon {
-    width: 20px;
-    height: 20px;
-}
-.info p {
-    font-size: 1rem;
-}
-.info .btn-lg {
-    padding: 0.3rem 0.5rem;
-    font-size: 0.7rem;
-}
-.info{
-    margin-inline: 13px;
-}
-.footer-logo {
-    width: 75px;
-    height: 75px;
-    top: -2%;
-    right: 8px;
-}
-.app-store-btn h5, .google-play-btn h5 {
-    font-size: 0.7rem;
-}
-.app-store-btn .fa-apple, .google-play-btn .fa-google-play {
-    font-size: 22px;
-    margin-right: 5px;
-}
-.policy .card-title
-{
-font-size: 0.9rem !important;
-}
-.policy p
-{
-font-size: 0.8rem !important;
-}
-.policy h4
-{
-font-size: 1.2rem !important;
-}
-.plates .nav-link {
-    margin-bottom: 7px;
-}
-.before-footer {
-    height: 0px;
-}
-.plates, .plates .container{
-    margin-bottom: 0px !important;
-    padding-bottom: 0px !important;
-}
-.copywrite p {
-    font-size: 0.7rem;
-}
-.plate-img img {
-    height: 90px;
-}
-.breadcrumb-item {
-    font-size: 0.7rem;
-}
-.wizard .nav-tabs .nav-item .nav-link {
-    width: 2rem;
-    height: 2rem;
-    font-size: 15px;
-    margin-top: 20px;
-}
-}
+/* end  */
